@@ -1,0 +1,47 @@
+# Notebook and data-science foundations
+jupyterlab
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+
+# LLMs and agent frameworks
+openai
+python-dotenv
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+langgraph
+crewai
+
+# Retrieval, graph, and integrations
+chromadb
+rank-bm25
+pypdf
+neo4j
+tavily-python
+mcp
+
+# API and observability
+fastapi
+uvicorn[standard]
+langfuse
+redis
+
+# Guardrails and NLP lab
+nemoguardrails
+presidio-analyzer
+presidio-anonymizer
+transformers
+torch
+sentencepiece
+accelerate
+spacy
+
+# Test support
+pytest
+httpx
