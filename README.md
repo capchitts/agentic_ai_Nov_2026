@@ -46,6 +46,9 @@ See [`Freshkart-case Study/requirements.md`](Freshkart-case%20Study/requirements
 ## Repository Guide
 
 - `Week - 1 Python Basics/` through `Week 9- Guardrails/`: weekly transcripts, notebooks, and supporting exercises.
+- Week 1 teaching pack: [session slides and revision](Week%20-%201%20Python%20Basics/Week%201%20-%20Session%20Slides%20and%20Revision.md), [session transcripts](Week%20-%201%20Python%20Basics/Week%201%20-%20Instructor%20Transcripts.md), [topic-wise instructor transcripts](Week%20-%201%20Python%20Basics/Week%201%20-%20Topic-wise%20Instructor%20Transcripts.md), and [assignment](Week%20-%201%20Python%20Basics/Week%201%20-%20Assignment.md).
+- Week 1 notebooks: [Pandas and Matplotlib customer-data lab](Week%20-%201%20Python%20Basics/5_Pandas_Matplotlib_Customer_Data.ipynb), [customer assignment](Week%20-%201%20Python%20Basics/Week%201%20-%20Customer%20Assignment.ipynb), and [instructor answers](Week%20-%201%20Python%20Basics/Week%201%20-%20Customer%20Assignment%20Answers.ipynb). The lab uses the existing `customer_details.csv` file.
+- Week 1 functions slides: [PowerPoint deck](Week%20-%201%20Python%20Basics/Week1_Functions.pptx) and [slide-ready outline](Week%20-%201%20Python%20Basics/Week%201%20-%20Functions%20Slides.md); all Week 1 decks are in the same folder.
 - `Week 10- Capstone Project/`: the capstone specification and planning transcript.
 - `Freshkart-case Study/`: requirements and an implementation playbook for the support-triage scenario.
 - `Github Repo /`: course-related repository materials.
