@@ -1,67 +1,70 @@
-# TechAdemy Agentic AI Course
+# TechAdemy Agentic AI Engineering Program
 
-A hands-on course that builds from Python and machine-learning foundations to the design, evaluation, and production-minded development of AI agents and retrieval-augmented systems. This workspace contains weekly learning materials, notebooks, exercises, case-study documents, and the capstone specification.
+A hands-on program that builds from Python foundations to practical AI application development. Learners progress from writing and debugging Python to calling language models, composing agent workflows, building retrieval-augmented generation (RAG) applications, and evaluating and safeguarding AI systems.
 
-## What You Will Learn
+This repository contains the course schedule, released teaching materials, Python notebooks, exercises, and course artifacts. Additional module materials will be added as they are prepared.
 
-- Use Python, pandas, and Matplotlib to inspect and analyze data.
-- Build statistical intuition and understand core machine-learning and deep-learning concepts.
-- Write effective prompts, manage context, and recognize prompt-injection risks.
-- Distinguish reactive LLM applications from goal-oriented agents.
-- Orchestrate chains and agent workflows with frameworks such as LangChain, LangGraph, and CrewAI.
-- Design and improve retrieval-augmented generation (RAG) systems, including hybrid and graph-based retrieval.
-- Evaluate LLM applications for quality, safety, latency, and cost.
-- Apply guardrails and responsible-AI practices across an application's lifecycle.
-- Translate a real-world brief into requirements, architecture, phased implementation, and acceptance checks.
+## Program at a Glance
 
-## Course Roadmap
+- **20 technical sessions** across **10 weekends**
+- **3 hours per technical session**
+- Starts with Python; no prior agent framework experience is assumed
+- A practical progression through LLM APIs, LangChain, LangGraph, CrewAI, RAG, evaluation, guardrails, and MCP
+- Final two sessions reserved for a focused capstone; the cohort will select the final problem later in the program
 
-| Module | Topics | Materials |
-| --- | --- | --- |
-| 1. Python Basics | Data types, control flow, collections, and an introductory pandas/Matplotlib customer-data lab | `Week - 1 Python Basics/` |
-| 2. Statistics for AI and ML | Descriptive statistics, distributions, outliers, correlation, and regression foundations | `Week 2 Stats & ML/` |
-| 3. Machine Learning, Deep Learning, and SQL | Learning setups, training and generalization, and querying structured data | `Week 3 ML & DL/` |
-| 4. Prompt Engineering and Agentic AI | Prompt design, few-shot examples, context budgets, prompt injection, reactive chatbots, and goal-oriented agents | `Week 4- Prompt-engineering-AI-Agents/` |
-| 5. Agent Frameworks and Orchestration | Chains, LangChain composition, LangGraph state and control flow, CrewAI, and framework selection | `Week 5- Frameworks-RAG/` |
-| 6. Retrieval-Augmented Generation | Indexing, retrieval, augmentation, common RAG failure modes, query transformation, and reranking | `Week 6- RAG/` |
-| 7. Graph RAG | Knowledge graphs, entity and relationship construction, graph retrieval, and hybrid Graph RAG | `Week 7- Graph RAG/` |
-| 8. LLM Evaluation and Production | Evaluation dimensions, rubrics, datasets, regression testing, deployment, cost, and latency | `Week 8- LLm Evaluation/` |
-| 9. Guardrails and Responsible AI | Lifecycle risk, input controls, PII handling, output validation, and end-to-end testing | `Week 9- Guardrails/` |
-| 10. Capstone | Plan and build an Enterprise Knowledge Assistant with retrieval, agents, guardrails, observability, and evaluation | `Week 10- Capstone Project/` |
+## Learning Outcomes
 
-## Applied Work
+By the end of the program, learners will be able to:
 
-### Enterprise Knowledge Assistant Capstone
+- Use core Python constructs, collections, functions, files, modules, packages, and JSON in AI application code.
+- Set up a Python environment and run, inspect, and debug Jupyter notebooks in VS Code.
+- Explain key LLM concepts, including tokens, context windows, embeddings, and prompting.
+- Call model APIs, manage credentials safely, tune request parameters, handle errors, and consume streamed responses.
+- Compose model, prompt, parser, tool, and agent workflows with LangChain.
+- Model multi-step workflows with LangGraph state, nodes, edges, routing, checkpoints, and human approval.
+- Build and compare multi-agent workflows with CrewAI.
+- Implement a RAG flow from document ingestion and chunking through embeddings, indexing, retrieval, and answer generation.
+- Recognize when advanced patterns such as Self-RAG, Corrective RAG, or Graph RAG may help.
+- Test AI application quality with curated datasets, LLM-as-judge, RAGAS measures, tracing, and regression checks.
+- Apply input and output validation, prompt-injection defenses, privacy and safety filters, and fallbacks.
+- Use AI coding assistants and connect tools through skills and MCP.
+- Scope, build, test, and present a small AI application as a team capstone.
 
-The capstone brief is an AI-powered assistant for enterprise knowledge. It brings together hybrid vector and graph retrieval, reranking and citations, a LangGraph workflow, layered guardrails, API delivery, observability, and evaluation. The project is organized into gated phases so each part can be implemented and verified incrementally.
+## Curriculum Roadmap
 
-Start with [`Week 10- Capstone Project/capstonespec.MD`](Week%2010-%20Capstone%20Project/capstonespec.MD), which contains the scope, architecture, decisions, and phase acceptance gates.
+| Module | Sessions | Schedule | Focus |
+| --- | ---: | --- | --- |
+| Python for AI | 1–3 | Nov 21, 22, 28, 2026 | Setup, variables, data types, strings, operators, conditions, loops, functions, collections, comprehensions, files, OOP basics, modules, packages, error handling, virtual environments, pip, and JSON |
+| LLM Foundations, API Calling, and VS Code | 4–6 | Nov 29, Dec 5–6, 2026 | LLMs, tokens, context windows, conceptual embeddings, model families, prompting, REST and SDK calls, API keys and `.env`, parameters, streaming, errors, Jupyter, kernels, and debugging |
+| LangChain | 7–8 | Dec 12–13, 2026 | Models, prompt templates, output parsers, chains, LCEL, runnables, tools, agents, memory, document loaders, text splitters, and tracing basics |
+| LangGraph and Pydantic | 9–10 | Dec 19–20, 2026 | Graphs, nodes, edges, state, conditional routing, typed state and outputs, tool-calling agents, checkpoints, memory, human-in-the-loop, multi-step workflows, and streaming |
+| CrewAI | 11 | Jan 9, 2027 | Agents, tasks, crews, roles, goals, sequential and hierarchical processes, tools, collaboration, and framework comparison |
+| RAG and Advanced RAG | 12–14 | Jan 10, 16–17, 2027 | Ingestion, chunking, embeddings, FAISS/ChromaDB, indexing, similarity search, metadata filters, prompt augmentation, end-to-end RAG, basic reranking, Self-RAG, Corrective RAG, and Graph RAG |
+| Evals and Guardrails | 15–16 | Jan 23–24, 2027 | LLM-as-judge, RAGAS, test sets, regression testing, tracing, validation, prompt-injection defense, PII and safety filters, guardrail frameworks, and fallbacks |
+| Efficient Coding, Skills, Connections, and MCP | 17–18 | Jan 30–31, 2027 | AI coding assistants in VS Code, Claude Code workflow, project context, prompts and commands, skills, tool connections, MCP servers and clients, and a custom integration |
+| Capstone | 19–20 | Feb 6–7, 2027 | Scope and requirements, architecture, core implementation, integration, evaluation, guardrails, demo, and feedback |
 
-### FreshKart AI Support Triage Case Study
+The complete session-by-session schedule, including the detailed topic descriptions, is in [`0_NonTeaching_Artifacts/Agentic_AI_Schedule_Nov2026.xlsx`](0_NonTeaching_Artifacts/Agentic_AI_Schedule_Nov2026.xlsx).
 
-The FreshKart case study explores a different design problem: support-ticket classification and data lookup followed by deterministic, explainable business rules. Its requirements explicitly exclude RAG, vector databases, and application-level agents; the LLM classifies a ticket and drafts a reply, while Python rules control the outcome and mandatory human review.
+## Class Format
 
-See [`Freshkart-case Study/requirements.md`](Freshkart-case%20Study/requirements.md) and [`Freshkart-case Study/FreshKart_OpenCode_VSCode_Implementation_Playbook.md`](Freshkart-case%20Study/FreshKart_OpenCode_VSCode_Implementation_Playbook.md).
+Each technical session is three hours. The planned teaching rhythm is a short concept segment followed by a dedicated doubt-clearing break, repeated through the class and paired with notebook or lab practice. The schedule describes roughly 20–25 minutes of topic delivery followed by 10–15 minutes for questions. The balance of explanation and hands-on work varies by module.
 
-## Repository Guide
+Learning materials include revision slides, Python notebooks, assignments, and capstone work. Use the notebooks to rerun examples, vary inputs, and inspect how the result changes.
 
-- `Week - 1 Python Basics/` through `Week 9- Guardrails/`: weekly transcripts, notebooks, and supporting exercises.
-- Week 1 teaching pack: [session slides and revision](Week%20-%201%20Python%20Basics/Week%201%20-%20Session%20Slides%20and%20Revision.md), [session transcripts](Week%20-%201%20Python%20Basics/Week%201%20-%20Instructor%20Transcripts.md), [topic-wise instructor transcripts](Week%20-%201%20Python%20Basics/Week%201%20-%20Topic-wise%20Instructor%20Transcripts.md), and [assignment](Week%20-%201%20Python%20Basics/Week%201%20-%20Assignment.md).
-- Week 1 notebooks: [Pandas and Matplotlib customer-data lab](Week%20-%201%20Python%20Basics/5_Pandas_Matplotlib_Customer_Data.ipynb), [customer assignment](Week%20-%201%20Python%20Basics/Week%201%20-%20Customer%20Assignment.ipynb), and [instructor answers](Week%20-%201%20Python%20Basics/Week%201%20-%20Customer%20Assignment%20Answers.ipynb). The lab uses the existing `customer_details.csv` file.
-- Week 1 functions slides: [PowerPoint deck](Week%20-%201%20Python%20Basics/Week1_Functions.pptx) and [slide-ready outline](Week%20-%201%20Python%20Basics/Week%201%20-%20Functions%20Slides.md); all Week 1 decks are in the same folder.
-- `Week 10- Capstone Project/`: the capstone specification and planning transcript.
-- `Freshkart-case Study/`: requirements and an implementation playbook for the support-triage scenario.
-- `Github Repo /`: course-related repository materials.
-- `Agentoc AI Schduele.xlsx`: course schedule.
-- `AI_Homework_LangChain_CrewAI_Streamlit.pdf`: supplementary homework material.
+## Capstone
 
-## Suggested Learning Path
+The final project is intentionally open for now. The cohort will choose a problem later, after exploring the course topics and identifying useful applications. One candidate is a focused policy and SOP question-answering assistant that retrieves from a small document set, cites sources, and is tested with a compact evaluation set and basic guardrails. The final scope should fit the two scheduled capstone sessions; a production deployment is out of scope.
 
-1. Work through the modules in order; the early Python, statistics, ML, and SQL concepts support the later application work.
-2. Follow along with the notebooks and exercises where provided, and keep the weekly transcripts as reference material.
-3. Compare the two applied scenarios: FreshKart emphasizes deterministic decisions and operational safeguards, while the Enterprise Knowledge Assistant capstone emphasizes retrieval, graph data, and agent orchestration.
-4. For the capstone, follow its phase prerequisites and acceptance gates rather than attempting the full system at once.
 
 ## Getting Started
 
-Open this folder as a workspace in VS Code. Begin with the Week 1 materials and progress through the numbered modules. Notebooks may require a Python environment with the packages used in their cells; install dependencies in that environment as needed. Review each project's own requirements and instructions before running its code.
+1. Clone or download this repository and open it in VS Code.
+2. Set up a Python environment and install the dependencies needed for the notebook or module you are working on. The root `requirements.txt` lists packages used across the program; some later modules may require only a subset.
+3. Start with the Python notebooks in `1_PythonBasics/NBs/` and use the matching slides and assignment as companion material.
+4. Refer to the schedule for the planned sequence and dates. Check each module's instructions before running its code, especially where API keys or external services are involved.
+
+## Course Links
+
+- [GitHub repository](https://github.com/capchitts/agentic_ai_Nov_2026)
+- [Shared Google Drive folder](https://drive.google.com/drive/folders/1k5R297oLmtIeWfTkQrueE72qwd5ku4XC?usp=drive_link)
